@@ -1,0 +1,14 @@
+theme = 'PaperMod'
+baseURL = 'https://yiyanghuang.com/'
+languageCode = 'zh-cn'
+title = 'Yiyang的个人网页'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+
+
+
+

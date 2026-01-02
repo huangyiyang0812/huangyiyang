@@ -1,0 +1,24 @@
+{{- define "main" -}}
+
+<header class="page-header">
+  {{- with .Params.description -}}
+    <div class="post-description">{{ . }}</div>
+  {{- end -}}
+</header>
+
+{{/* 获取所有 section（专栏），排除 posts 等你不想展示的 */}}
+{{- $sections := where .Site.Sections "Section" "not in" (slice "posts" "post") -}}
+
+{{/* 如果你只想显示特定专栏，可以改成白名单：
+    $sections := where .Site.Sections "Section" "in" (slice "travel_notes" "tech_notes")
+*/}}
+
+{{- range $sections -}}
+  <article class="post-entry">
+    <header class="entry-header">
+      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    </header>
+  </article>
+{{- end -}}
+
+{{- end -}}
