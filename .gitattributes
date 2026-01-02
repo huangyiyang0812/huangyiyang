@@ -1,8 +1,10 @@
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.JPG filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.JPEG filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.PNG filter=lfs diff=lfs merge=lfs -text
-*.heic filter=lfs diff=lfs merge=lfs -text
-*.mp4 filter=lfs diff=lfs merge=lfs -text
+# Only track travel notes media with Git LFS
+
+content/travel_notes/**/*.jpg  filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.JPG  filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.jpeg filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.JPEG filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.png  filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.PNG  filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.heic filter=lfs diff=lfs merge=lfs -text
+content/travel_notes/**/*.mp4  filter=lfs diff=lfs merge=lfs -text
