@@ -1,0 +1,11 @@
+$root = "content\travel_notes\......"
+
+# 处理 JPG/JPEG
+Get-ChildItem $root -Recurse -File -Include *.jpg,*.jpeg,*.JPG,*.JPEG | ForEach-Object {
+  magick $_.FullName -auto-orient -strip -resize "2048x2048>" -quality 82 -interlace Plane $_.FullName
+}
+
+# 处理 PNG（转换为优化过的 PNG；如果你 PNG 很多且体积大，建议改成 JPG，我后面也给你方案）
+Get-ChildItem $root -Recurse -File -Include *.png,*.PNG | ForEach-Object {
+  magick $_.FullName -strip -resize "2048x2048>" -define png:compression-level=9 $_.FullName
+}
