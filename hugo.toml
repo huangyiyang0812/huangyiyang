@@ -1,5 +1,7 @@
 theme = 'PaperMod'
-baseURL = 'https://huangyiyang0812.github.io/huangyiyang/'
+baseURL = "https://huangyiyang0812.github.io/huangyiyang/"
+relativeURLs = false
+canonifyURLs = true
 languageCode = 'zh-cn'
 title = 'Yiyang的个人网页'
 
