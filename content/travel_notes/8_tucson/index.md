@@ -1,5 +1,5 @@
 +++
-title = '图森四日游 - 2025-07-05至2022-07-12'
+title = '图森 - 2025-07-05至2022-07-12'
 date = '2026-01-04'
 draft = false
 +++
@@ -67,8 +67,6 @@ draft = false
 <img src="18.jpg" style="width:80%;">
 
 <img src="19.jpg" style="width:80%;">
-
-<img src="20.jpg" style="width:80%;">
 
 <img src="21.jpg" style="width:80%;">
 
