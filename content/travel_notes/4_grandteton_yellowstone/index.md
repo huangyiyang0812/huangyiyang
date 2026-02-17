@@ -4,9 +4,9 @@ date = '2023-07-30'
 draft = false
 +++
 
-### Jenny Lake - Grand Prismatic Spring - Old Faithful Geyser - Norris Geyser Basin - Mammoth Terraces - Upper/Lower Falls - Lamar Valley - Mudpots
+### 写于2023-07-30
 
-## 写于2023-07-30
+### Jenny Lake - Grand Prismatic Spring - Old Faithful Geyser - Norris Geyser Basin - Mammoth Terraces - Upper/Lower Falls - Lamar Valley - Mudpots
 
 暑假的行程围绕着黄石和大提顿展开。
 

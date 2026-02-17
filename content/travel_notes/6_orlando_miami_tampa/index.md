@@ -4,9 +4,9 @@ date = '2025-01-22'
 draft = false
 +++
 
-### Animal Kingdom - Wynwood涂鸦街区 - South Beach - Everglades - Long Key State Park - Biscayne - EPCOT - 达利博物馆 - Siesta Beach - Disney Springs
+### 写于2025-01-22
 
-## 写于2025-01-22
+### Animal Kingdom - Wynwood涂鸦街区 - South Beach - Everglades - Long Key State Park - Biscayne - EPCOT - 达利博物馆 - Siesta Beach - Disney Springs
 
 寒假我又出去玩了，这次主要是去佛罗里达探望我的homie，顺便过个圣诞。这也是我第二次到佛州度假了，上次来还是在三年前。比起图森，不得不说佛罗里达的天气确实要更适合过冬一些，都要过年了有的时候还需要开冷气，我压箱底的裙子也总算是派上了用场。
 
